@@ -25,6 +25,8 @@ To study how propulsion parameters such as chamber pressure, nozzle expansion ra
 
 - **MATLAB** - It is used along with OpenMotor to keep track of which parameter causes different kinds of changes with how much intensity as OpenMotor lacks this critical feature leading to a hit and trail approach which can be overrun using MATLAB.
 
+-  **SolidWorks** - The 3D geometry of the motor whose contraints came from OpenMotor is built using Solidworks. This ensures close tolerances and helps in making the geomtery watertight (by using solid boss extrudes only).
+
 - **Ansys** - This is used to see whether the housing of our solid rocket motor is good enough to provide a unidirectional thrust with minimal losses due to back pressure or chamber opressure buildup due to burn times being very short.
 The mesh setup is taken as a tetrahedral mesh along the entire cylindrical housing and finer mesh cell sizes are given in the throat and nozzle area to account for jump in values of pressure, sound speed, species tranfer rate, etc.
 
